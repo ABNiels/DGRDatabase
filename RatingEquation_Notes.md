@@ -67,6 +67,6 @@ For holes, the scaling factor can be set to a constant value. This is because ho
 
 The equation for conversions between Strokes Relative to Par (P) and Scores (S) is as follows
 
-$$ S = \frac{1}{1+20^{P\log_{20}\left(\sqrt{10}\right)}} $$
+$$ S = \frac{1}{1+10^{0.5P}} $$
 
-$$ P = \log_{\sqrt10}\left(\frac{1-S}{S}\right) $$
+$$ P = 2\log_{10}\left(\frac{1-S}{S}\right) $$
