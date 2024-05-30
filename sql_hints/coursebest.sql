@@ -6,6 +6,6 @@ FROM
 	JOIN Layouts l on l.ID = s.LayoutID
 WHERE
 	l.HoleID between 19 AND 36 AND
-	p.Name = 'Micaela'
+	p.Name = 'Player 1'
 group by
  l.HoleID, p.ID;
